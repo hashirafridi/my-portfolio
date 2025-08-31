@@ -3,8 +3,8 @@ const projectsData = [
   {
     id: "quantum-store",
     title: "Quantum Store",
-    description: "A Steam-like game library web app with user authentication, download functionality, and game compatibility assistant.",
-    technologies: ["React", "Node.js", "MongoDB"],
+    description: "Quantum Store is a full-stack, Steam-like web application built with React.js, Node.js, and CSS Modules. It allows users to browse and download games with advanced filters, view detailed game info, and get smart recommendations based on their hardware. A unique Game Compatibility Assistant analyzes the user's system to predict performance (smooth, laggy, or unsupported). The platform includes a secure role-based auth system for admins, game creators, and users, along with a powerful admin panel for managing games, users, and content. Users can also rate and review games, manage their game library, and customize their gamer profile.",
+    technologies: ["React", "Node.js","Express.js", "MongoDB","CSS Modules"],
     thumbnail: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
       "images/q1.png",
@@ -22,7 +22,7 @@ const projectsData = [
     id: "msgmystry",
     title: "MsgMystry",
     description: "A feedback system where you can send messages to anybody and receive anonymous feedback with OpenAI integration for sentiment analysis.",
-    technologies: ["Next.js", "OpenAI API", "Tailwind"],
+    technologies: ["Next.js", "OpenAI API", "Tailwind Css","React.js"],
     thumbnail: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
       
@@ -31,7 +31,7 @@ const projectsData = [
   {
   id: "eduai",
   title: "EduAI",
-  description: "EduAI is an AI-driven e-learning platform designed to provide affordable, personalized, and accessible education to students and professionals across Pakistan. The system supports competitive exam preparation (MDCAT, CSS, NTS, etc.), skill-building courses, and instructor-led content delivery using modern web technologies.",
+  description: "EduAI is an AI-driven e-learning platform designed to provide affordable, personalized, and accessible education to students and professionals across Pakistan. The system supports competitive exam preparation (MDCAT, CSS, NTS, etc.), skill-building courses, and instructor-led content delivery using modern web technologies.",
   technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "JWT"],
   thumbnail: "https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   images: [
@@ -49,7 +49,7 @@ const projectsData = [
     id: "bankist",
     title: "Bankist",
     description: "A bank management web application with transaction tracking, user accounts, loan management, and financial analytics.",
-    technologies: ["JavaScript", "HTML/CSS", "Firebase"],
+    technologies: ["JavaScript", "HTML/CSS", "Node.js","Express.js"],
     thumbnail: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
    
@@ -58,8 +58,8 @@ const projectsData = [
   {
     id: "bookbite",
     title: "BookBite",
-    description: "A restaurant management system with table reservations, menu management, order tracking, and payment processing.",
-    technologies: ["React", "Node.js", "MySQL"],
+    description: "BooknBite is a modern restaurant platform where users can order food, book tables, and explore a rich menu featuring breakfast, lunch, dinner, desserts, and tea. It includes a powerful admin system to manage users, menus, bookings, orders, feedback, service requests, stock, billing (with smart bill splitting), and more — everything needed for seamless restaurant operations. With real-time order tracking, detailed dashboards, and intuitive table management, BooknBite brings efficiency to the kitchen and convenience to the customer. Perfect for restaurants that want to elevate both service and control.",
+    technologies: ["React", "Node.js", "MySQL","CSS Modules"],
     thumbnail: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
       "images/r11.jpg",
@@ -80,8 +80,8 @@ const projectsData = [
   {
     id: "eduportal",
     title: "EduPortal",
-    description: "A comprehensive school management system connecting teachers, students, and administrators with assignments, messaging, attendance, and payment features.",
-    technologies: ["Next.js", "Supabase", "Tailwind"],
+    description: "A modern, all-in-one educational management portal designed for schools, colleges, and universities. Built with Next.js, React, and Tailwind CSS on the frontend and Node.js on the backend, this platform delivers seamless performance and scalability. It features powerful modules like student attendance tracking, grade and result management, teacher/admin panels, assignment handling, syllabus tracking, and a dynamic dashboard showing complete student profiles. With a secure and role-based authentication system, each user—student, teacher, or admin—gets personalized access and control. EduPortal simplifies academic operations while enhancing communication between staff, students, and administrators.",
+    technologies: ["Next.js", "Tailwind","TypeScript","Tailwind CSS","Node.js","Express.js"],
     thumbnail: "https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
       "images/u1.png",
@@ -125,10 +125,11 @@ const projectsData = [
     id: "cabinbooker",
     title: "CabinBooker",
     description: "A cabin booking system with property listings, availability calendar, online reservations, and payment processing for vacation rentals.",
-    technologies: ["React", "Express.js", "MongoDB"],
+    technologies: ["React","Node.js", "Express.js", "MongoDB"],
     thumbnail: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     images: [
     
     ]
   }
 ];
+
